@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset ="UFT-8">
+        <title > Orden de Compra</title>
+        <link rel="stylesheet" href="orden-de-compra.component.css">
+    </head>
+    <body>
+        <div class="container">
+          <div class="row justify-content-center pt-5 mt-5">
+            
+              <form action="">
+                <div class="form-group row mt-3">
+                  <div class="col-12 col-md-15">
+                    <legend  class=" bg-primary text-white">Orden de Compra</legend>
+                  </div>
+                </div>
+            
+                <div class="row g-3"> 
+                <div class="col-md-3">
+                  <label for="empresa" class="form-label">Empresa</label>
+                  <input type="text" class="form-control" id="empresa" placeholder="Empresa">
+                </div>
+                <div class="col-md-6">
+                  <label for="direccion" class="form-label">Direccion</label>
+                  <input type="text" class="form-control" id="direccion" placeholder="Direccion">
+                </div>
+                <div class="col-md-2">
+                    <label for="telefono" class="form-label">Telefono</label>
+                    <input type="number" class="form-control" id="telefono" placeholder="Telefono">
+                  </div>
+                  
+                  <div class="col-md-2">
+                    <label for="fecha" class="form-label">Fecha</label>
+                    <input type="date" class="form-control" id="fecha" >
+                  </div>
+                  <div class="col-md-5">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4"placeholder="Email " >
+                  </div>
+                  <div class="col-md-3">
+                    <label for="numero" class="form-label">Numero De Orden De Compra</label>
+                    <input type="number" class="form-control" id="numero" placeholder="Numero De Orden" >
+                  </div>
+                  <div class="form-group col-md-2 boton">
+                    <button type="submit" class="btn btn-primary">Limpiar</button>
+                  </div>
+                </div>
+                  <div class="row g-3"> 
+                    <div>
+                      <legend  class=" bg-primary text-white">Proveedor</legend>
+                  </div>   
+                  <div class="form-group col-md-3">
+                    <label for="empresa" class="form-label">Empresa</label>
+                    <input type="text" class="form-control" id="empresa" placeholder="Empresa">
+                  </div><br>
+                  <div class="col-md-3">
+                      <label for="nombre" class="form-label">Nombre</label>
+                      <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                    </div><br>
+                    <div class="col-md-2">
+                      <label for="telefono" class="form-label">Telefono</label>
+                      <input type="number" class="form-control" id="telefono" placeholder="Telefono">
+                    </div><br>
+                    <div class="col-md-4">
+                      <label for="email" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="email"placeholder="Email">
+                    </div>
+
+                    <div class="form-group col-md-2 boton">
+                      <button type="submit" class="btn btn-primary">Limpiar</button>
+                    </div>
+
+              </div>
+                    <div class="row g-3">
+                      <div>
+                        <legend  class=" bg-primary text-white">Datos de compra</legend>
+                    </div>
+                      <div class="form-group col-md-2">
+                        <label for="codigo">Codigo</label>
+                        <input type="number" class="form-control" id="codigo">
+                      </div>
+                      <div class="form-group col-md-4">
+                        <label for="pedido">Pedido</label>
+                        <select id="pedido" class="form-control" >
+                          <option selected >pastel de chocolate</option>
+                          <option>keke de naranja</option>
+                        </select>
+                      </div>
+                      <div class="form-group col-md-2">
+                        <label for="cantidad">Cantidad</label>
+                        <input type="number" class="form-control" id="cantidad">
+                      </div>
+                   
+                    <div class="form-group col-md-2">
+                      <label for="precio">Precio.Unidad</label>
+                      <input type="number" class="form-control" id="precio">
+                    </div>
+                    <div class="form-group col-md-2 boton1 boton">
+                      <button type="submit" class="btn btn-primary">Registrar</button>
+                    </div>
+                  </div>
+                 <table style="width:100%" class="table">
+                  <thead>
+                    <tr class=" bg-primary text-white" >
+                      <th  scope="col">codigo</th>
+                      <th  scope="col">Articulo</th>
+                      <th  scope="col">Cantidad</th>
+                      <th  scope="col">Precio.Uni</th>
+                      <th  scope="col">Total</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                     
+                      <td>pastel chocolate</td>
+                      <td>1</td>
+                      <td>15.00</td>
+                      <td>15.00</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                     
+                      <td>keke manzana</td>
+                      <td>2</td>
+                      <td>10.00</td>
+                      <td>20.00</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                     
+                      <td>Pay De manzana</td>
+                      <td>2</td>
+                      <td>22.00</td>
+                      <td>44.00</td>
+                    </tr>
+                  </tbody>
+                </table><br><br>
+
+
+          <div class="col-md-5 ">
+            <label for="exampleFormControlTextarea1" class="form-label">Comentario</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea><br><br>
+          
+      
+        <div  class="row g-3 suma ">
+            <div class="mb-3 row">
+                <label for="subTotal" class="col-sm-2 col-form-label">SubTotal</label>
+                <div class="col-sm-5">
+                  <input type="number" class=" form-control" id="subTotal" placeholder="SubTotal">
+                </div>
+              </div>
+
+              <div class="mb-3 row ">
+                <label for="impuesto" class="col-sm-2 col-form-label">Impuesto</label>
+                <div class="col-sm-5">
+                  <input type="number" class=" form-control" id="impuesto" placeholder="Impuesto">
+                </div>
+              </div>
+
+              <div class="mb-3 row">
+                <label for="envio" class="col-sm-2 col-form-label">Envio</label>
+                <div class="col-sm-5">
+                  <input type="number" class=" form-control" id="envio" placeholder="Envio">
+                </div>
+              </div>
+
+              <div class="mb-3 row ">
+                <label for="otro" class="col-sm-2 col-form-label">Otro</label>
+                <div class="col-sm-5">
+                  <input type="number" class=" form-control" id="otro" placeholder="Otro">
+                </div>
+              </div> 
+           
+              <div class="mb-3 row">
+                <label for="tottal" class="col-sm-2 col-form-label">Total</label>
+                <div class="col-sm-5">
+                  <input type="number" class=" form-control" id="total" placeholder="Total">
+                </div>
+              </div> 
+           </div>
+      </div>
+    
+            <div class="form-group control">
+              <button type="submit" class=" btn btn-primary">Guardar</button>
+            </div><br>
+            <div class="form-group control">
+              <button type="submit" class="btn btn-primary">Cancelar</button>      
+            </div>
+        </form>          
+          </div>
+        </div>
+    </body>
+
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset ="UFT-8">
+        <title > Reporte</title>
+        <link rel="stylesheet" href="reportesdemovimientosdiarios.component.css">
+    </head>
+    <body>
+        <div class="container">
+          <div class="row justify-content-center pt-5 mt-5">
+            <div style="width: 1000px; " class="col-md-4 formulario">
+
+             <form >
+              <blockquote class="blockquote titulo">
+                     
+              </blockquote>
+              <h3 class="bg-primary text-white titulo1">Reporte de movimientos diarios</h3><br>
+              <div  >
+                  
+                <div class="mb-2 row ">
+                    <div class="form-group col-md-3">
+                      <label for="fecha">Fecha</label>
+                      <input type="date" class="form-control" id="fecha">                      
+                    </div>
+
+                    <div class="form-group col-md-3">
+                      <label for="hora">Hora</label>
+                      <input type="time" class="form-control" id="hora">
+                    </div>
+                 
+                  <div class="form-group col-md-4">
+                    <label for="usuario">Usuario</label>
+                    <input type="text" class="form-control" id="usuario">
+                  </div>
+
+                  
+                </div>
+              </div>
+              <div class="mb-2 row ">
+                <h4 class="bg-primary text-white titulo1">Datos Del Producto</h4><br>
+
+                <div class="form-group col-md-2">
+                  <label for="cod">Codigo</label>
+                  <input type="number" class="form-control" id="cod">
+                </div>
+
+                <div class="form-group col-md-3">
+                  <label for="cat">Categoria</label>
+                  <select id="area" class="form-control" >
+                    <option >Despensa</option>
+                    <option>Utensilios</option>
+                    <option>Panes</option>
+                    <option>Pasteles</option>
+                  </select>
+                </div>
+
+                <div class="form-group col-md-3">
+                  <label for="fecha">Fecha</label>
+                  <input type="date" class="form-control" id="fecha">                      
+                </div>
+                <div class="form-group col-md-4">
+                  <label for="ped">Pedido</label>
+                  <input type="text" class="form-control" id="ped">
+                </div>
+                <div class="form-group col-md-2">
+                  <label for="cant">Cantidad</label>
+                  <input type="number" class="form-control" id="cant">
+                </div>
+             
+              <div class="form-group col-md-2">
+                <label for="precio">Precio.Unid</label>
+                <input type="number" class="form-control" id="precio">
+              </div>
+
+              <div class="form-group col-md-2 boton1 boton">
+                <button type="submit" class="btn btn-primary">Registrar</button>
+              </div>
+              </div>
+                <table style="width:100%" class="table">
+                  <thead>
+                    <tr class=" bg-primary text-white" >
+                      <th  scope="col">codigo</th>
+                      <th  scope="col">Categoria</th>
+                      <th  scope="col">Fecha</th>
+                      <th  scope="col">Pedido</th>
+                      <th  scope="col">Cantidad</th>
+                      <th  scope="col">Precio.Unid</th>
+                      <th  scope="col">Total</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Postres</td>
+                      <td>2020-12-12</td>
+                      <td>pastel</td>
+                      <td>1</td>
+                      <td>15.00</td>
+                      <td>15.00</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Postres</td>
+                      <td>2020-12-12</td>
+                      <td>keke</td>
+                      <td>2</td>
+                      <td>10.00</td>
+                      <td>20.00</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Postres</td>
+                      <td>2020-12-12</td>
+                      <td>Pay De manzana</td>
+                      <td>2</td>
+                      <td>22.00</td>
+                      <td>44.00</td>
+                    </tr>
+                  </tbody>
+                </table><br><br>
+                <div class="mb-3 row">
+                  <label for="postres" class="col-sm-2 col-form-label">Total de postres</label>
+                  <div class="col-sm-3">
+                    <input type="number" class=" form-control" id="postres" placeholder="postres">
+                  </div>
+                </div>
+
+                <div class="mb-3 row">
+                  <label for="panes" class="col-sm-2 col-form-label">Total de panes</label>
+                  <div class="col-sm-3">
+                    <input type="number" class=" form-control" id="panes" placeholder="Panes">
+                  </div>
+                </div>
+
+                <div class="mb-3 row">
+                  <label for="utensilios" class="col-md-2 col-form-label">Total de Utensilios</label>
+                  <div class="col-sm-3">
+                    <input type="number" class=" form-control" id="utensilios" placeholder="Utensilios">
+                  </div>
+                </div>
+
+                <div class="mb-3 row">
+                  <label for="lacteos" class="col-sm-2 col-form-label">Total de Despensa</label>
+                  <div class="col-sm-3">
+                    <input type="number" class=" form-control" id="lacteos" placeholder="Lacteos">
+                  </div>
+                </div>
+
+                <div class="mb-3 row">
+                  <label for="cantidad" class="col-sm-2 col-form-label">Cantidad Vendidad</label>
+                  <div class="col-sm-3">
+                    <input type="number" class=" form-control" id="cantidad" placeholder="Cantidad">
+                  </div>
+                </div>
+
+------------------------------------------------------------
+                <div class="mb-3 row">
+                  <label for="subTotal" class="col-sm-2 col-form-label">Ganancias del Dia</label>
+                  <div class="col-sm-3">
+                    <input type="number" class=" form-control" id="subTotal" placeholder="Total">
+                  </div>
+                </div>
+                <div class="form-group control">
+                  <button type="submit" class=" btn btn-primary">Guardar</button>
+                </div><br>
+                <div class="form-group control">
+                  <button type="submit" class="btn btn-primary">Cancelar</button>      
+                </div>
+             </form>
+            </div>
+          </div>
+        </div>
+    </body>
+</html>

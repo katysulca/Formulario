@@ -1,0 +1,19 @@
+.formulario{
+    padding:20px;
+    right: 10;
+    margin: 30px;
+}
+.control {
+   
+   width: 100%;
+   height: 40px;
+   border-radius: 6px;
+   background:#5873ee;
+   text-align: center;
+   font-size: 15px;
+  
+}
+
+.p{
+text-align: center;
+}

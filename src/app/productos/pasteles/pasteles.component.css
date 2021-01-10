@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Amarante');
+
+
+.titulo{
+    display: block;
+    width: 850px;
+    margin: 0 auto;
+    padding: 10px 17px;
+}
+
+h1 { 
+    font-family: 'Amarante', Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 3.6em;
+    line-height: 1.7em;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  #wrapper {
+    display: block;
+    width: 850px;
+    background: #fff;
+    margin: 0 auto;
+    padding: 10px 17px;
+  }
+
+.color{
+    background-color:#E38787 ;
+}
+.color1{
+  background-color:#40bbda ;
+}
+.color2{
+  background-color: rgb(235, 12, 12);
+}

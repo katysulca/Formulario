@@ -1,0 +1,33 @@
+
+
+.suma{
+    position: absolute;
+    top: 930px;
+    right: 500px;
+    width: 500px;
+    float: left;
+}
+
+.control {
+    color :#0b0b0c;
+   width: 100%;
+   height: 40px;
+   border-radius: 6px;
+   background:#ee6cdd;
+   text-align: center;
+   font-size: 15px;
+  
+}
+
+.titulo{
+    text-align: right;
+}
+
+.boton {
+    padding: 25px;
+    border-radius: 5px;
+    bottom: 10px;
+    text-decoration: none;
+    right: 330px;
+  }
+
